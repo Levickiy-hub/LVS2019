@@ -1,0 +1,32 @@
+ main()
+{
+ dec int x;
+ dec int x1;
+ dec int x2;
+ dec int y;
+ dec int y1;
+ dec int y2;
+ dec int y3;
+ dec int z;
+ dec int f;
+ dec int i;
+ dec char a = 's';
+
+ x = 1;
+ y = 3;
+ x1 = 100;
+ x2 = 123;
+ y1 = x1^x2;
+ y2 = x1 & x2;
+ y3 = ~y;
+ f = rand(0, 100);
+ i = atoi(a);
+ print "контрольный пример";
+ print y1;
+ print y2;
+ print y3;
+ print f;
+ print i;
+ print a;
+ return 0;
+};

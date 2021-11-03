@@ -1,0 +1,48 @@
+function int main()
+{
+glob dec int x;
+glob dec int x1;
+glob dec int x2;
+glob dec int y;
+lock dec int y1;
+lock dec int y2;
+lock dec int y3;
+lock dec int z;
+glob dec int f;
+glob dec int i;
+glob dec char a = 's';
+lock dec char stro[]={'контрольный пример'};
+lock dec char b[3];
+ x = 1;
+ y = 3;
+if(y<x){
+print x;
+}
+if(y<x){
+print x;
+}
+ x1 = 100;
+ x2 = 123;
+ y1 = x1^x2;
+ y2 = x1 & x2;
+ y3 = ~y;
+ f = rand(0, 100);
+ i = atoi(a);
+ b[0] = 'a';
+ b[1] = 'b';
+ b[2] = '0';
+ print "контрольный пример";
+ print y1;
+ print y2;
+ print y3;
+ print f;
+ print i;
+ print a;
+ for(lock int k = 0; k<18; k+1){
+ print stro[k];
+ }
+ for(lock int k = 0; k<3; k+1){
+ print b[k];
+ }
+ return 0;
+};
